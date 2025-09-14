@@ -1,69 +1,126 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.Welcome{
-    height: 95vh;
-    background-image: url('./image/images\ \(4\).jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 
+.nav-link {
+  display: flex;
+  align-items: center;
+  background-color: brown;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
 }
-.Welcome h1{
-    text-align: center;
-    font-size: 70px;
-    color: whitesmoke;
-    padding-top: 80px;
-}
-h1{
-    text-align: center;
-}
-.nav-link{
-    display: flex;
-    background-color: brown;
-    justify-content: space-between;
-    padding: 30px;
 
+.nav-link ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: large;
+  font-weight: 700;
+  margin-right: 20px;
 }
-.nav-link ul{
+
+.nav-link li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link input {
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: none;
+}
+
+.Welcome {
+  height: 95vh;
+  background-image: url('./image/images (4).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Welcome h1 {
+  font-size: 50px;
+  color: whitesmoke;
+  max-width: 70%;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+.products-section{
     display: flex;
-    list-style: none;
-    font-size: large;
-    font-weight: 700;
-    justify-content: space-between;
-    margin-right: 20px;
-    
+    flex-direction: column;
 }
-input{
-    border-radius: 1cm;
-    height: 0.5cm;
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
 }
-li{
-    margin-left: 120px;
-    text-align: left;
-    padding: 1px;
+
+
+.products img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
 }
-.heading h3{
-    color: purple;
-    text-align: center;
+.more-btn{
+    background-color: purple;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    /* position: absolute; */
 }
+.more-btn:hover{
+    box-shadow: 0px 10px 10px purple;
+    transform: scale(1.2);
+    background-color: rgb(97, 1, 97);
+}
+
+.heading h3 {
+  color: purple;
+  text-align: center;
+  margin: 20px 0;
+}
+
 .container {
-    background-color: antiquewhite;
-    padding: 25px;
-    text-align: center;
-    margin: 2%;
-    background-size: cover;
-    
+  background-color: antiquewhite;
+  padding: 25px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;
 }
 
-.container input{
-    margin: 10px;
-    justify-content: space-between;
-    font-size: large;
+.container input,
+.container textarea {
+  margin: 10px;
+  width: 80%;
+  padding: 10px;
+  font-size: large;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-.container button{
-    color: blue;
-    float: right;
-    font-size: large;
-    
-    
+
+.container button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: darkblue;
 }

@@ -1,0 +1,27 @@
+HTML Structure
+
+Added section elements for better semantic grouping.
+
+Corrected <h1> tag in Welcome (was not closed properly).
+
+Used form for the contact section.
+
+Replaced empty href="" with # for placeholder navigation.
+
+Accessibility
+
+Added alt attributes to images.
+
+Added required for important input fields.
+
+Better placeholder text and proper input types (email, tel).
+
+CSS Improvements
+
+Fixed margin-left: 120px on li (replaced with gap for flexibility).
+
+Added hover effect for button.
+
+Centered and scaled product images.
+
+Fixed input height (used padding instead).

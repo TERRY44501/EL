@@ -1,72 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProLaptoMart</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav>
+  
+  <!--  Navigation bar -->
+  <nav>
+    <div class="nav-link">
+      <h1>ProLaptoMart</h1>
+      <ul>
+        <!--  Use # instead of empty href -->
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+      </ul>
+      <!--  Added label for accessibility -->
+      <input type="text" placeholder="Search..." />
+    </div>
+  </nav>
 
-        <div class="nav-link">
-            <h1>ProLaptoMart</h1>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Services</a></li>
-            </ul>
-            <input type="text"placeholder="Search box">
+  <!--  Hero / Welcome section -->
+  <section class="Welcome"> 
+    <h1>
+      Welcome to ProLaptoMart E-commerce website where your story becomes unforgettable
+    </h1>
+  </section>
 
+  <!--  Featured products -->
+  <section class="products-section">
+    <h1>Featured Products</h1>
+    <div class="products">
+      <!--  Images should be inside a container -->
+      <img src="./image/images.jpg" alt="Product 1" />
+      <img src="./image/images (7).jpg" alt="Product 2" />
+      <img src="./image/images (4).jpg" alt="Product 3" />
+      <img src="./image/images (3).jpg" alt="Product 4" />
+    </div>
+    <button class="more-btn">View More</button>
+  </section>
 
-        </div>
-    </nav>
-     <div class="Welcome"> 
-          <h1>Welcome to ProLaptoMart E commerce website where your story becomes unforgettable<h1>
-            <div>
-                
-                
-            </div>
-        
+  <!--  Company Info -->
+  <div class="heading">
+    <h3>A company that offers end-to-end video conferencing products</h3>
+  </div>
 
-     </div>
-     <h1>Feature product</h1>
-        <img src="./image/images.jpg" alt="">
-        <img src="./image/images (7).jpg" alt="">
-        <img src="./image/images (4).jpg" alt="">
-        <img src="./image/images (3).jpg" alt="">
-         <button>View More</button>
-         <div class="heading">
-            <h3>A company that offers end to end video conferencing product</h3>
+  <!--  Contact form -->
+  <section class="container">
+    <h1>Send us a message</h1>
+    <p>Please fill the form and we will be in touch</p>
 
-         </div>
-          <div class="container">
+    <!--  Use form element for accessibility -->
+    <form>
+      <input type="text" placeholder="Enter your full name" required /><br />
+      <input type="email" placeholder="Enter your email address" required /><br />
+      <input type="tel" placeholder="Enter your phone number" /><br />
+      <textarea placeholder="Enter your message"></textarea><br />
+      <button type="submit">Submit Message</button>
+    </form>
+  </section>
 
-        <h1>send us a message</h1>
-        <p>please fill the form and we will be in touch</p>
-        <input type="text" placeholder="enter your full name"><br>
-        <input type="text"placeholder="enter your email address"><br>
-        <input type="text"placeholder="enter your phone number"><br>
-        <textarea placeholder="enter your message"></textarea><br>
-        
-
-        <button>summit message</button>
-        </div>
-
-        
-
-          
-
-        
-
-
-
-
-
-
-
-    
-    
 </body>
 </html>
